@@ -32,7 +32,7 @@ client
 
 // Middleware Connections
 const corsConfig = {
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://r-tourist.web.app"],
     credentials: true,
 };
 app.use(cors(corsConfig));
